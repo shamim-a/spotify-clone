@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Ubuntu:wght@300;400;500&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav{
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    
+    
+}
+ul li {
+    display: flex;
+    align-items: center;
+    
+    padding: 0 12px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo img {
+    width: 48px;
+}
+ul .logo a{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
